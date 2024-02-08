@@ -1,16 +1,13 @@
-# modern-opengl-starter
+# modern-opengl
 
 Based on https://github.com/ArthurSonzogni/OpenGL_CMake_Skeleton
 
-// TODO:
-Install clang with brew?
-
 ```
-git clone --recursive git@github.com:ArthurSonzogni/OpenGL_CMake_Skeleton.git
-cd modern-opengl-starter
+git clone --recursive git@github.com:sluger/modern-opengl.git
+cd modern-opengl
 mkdir build
 cd build
 cmake ..
 make -j
-./opengl-cmake-skeleton
+./modern-opengl
 ```
