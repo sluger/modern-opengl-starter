@@ -1,13 +1,28 @@
-# modern-opengl
+# modern-opengl-starter
 
-Based on https://github.com/ArthurSonzogni/OpenGL_CMake_Skeleton
+This repo is a starter setup for modern OpenGL with GLFW and GLEW built with cmake and clang on macOS.
+
+## Prerequisites
+
+- [https://cmake.org/](cmake), e.g. via Homebrew at https://formulae.brew.sh/formula/cmake
+- clang, e.g. via `xcode-select --install` on MacOS
+- Set up IDE of choice, e.g. see the VS Code guide: https://code.visualstudio.com/docs/cpp/config-clang-mac)
+
+Also recommending the cpp and cmake VS Code extensions.
+
+## Install
 
 ```
-git clone --recursive git@github.com:sluger/modern-opengl.git
-cd modern-opengl
+git clone --recursive git@github.com:sluger/modern-opengl-starter.git
+cd modern-opengl-starter
 mkdir build
 cd build
 cmake ..
 make -j
-./modern-opengl
+```
+
+## Run the application
+
+```
+./modern-opengl-starter
 ```

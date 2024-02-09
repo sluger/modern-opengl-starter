@@ -1,3 +1,7 @@
+/**
+ * Taken from the udemy course on Computer Graphics with Modern OpenGL and C++ by Ben Cook
+ */
+
 #include <stdio.h>
 
 #include <GL/glew.h>
