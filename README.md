@@ -2,11 +2,11 @@
 
 This repo is a starter setup for modern OpenGL with GLFW, GLEW, and GLM built with [CMake](https://cmake.org/) and [Clang](https://clang.llvm.org/).
 
-[GLFW](https://www.glfw.org/) is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+> [GLFW](https://www.glfw.org/) is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
 
-[GLEW](https://glew.sourceforge.net/) (The OpenGL Extension Wrangler Library) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform.
+> [GLEW](https://glew.sourceforge.net/) (The OpenGL Extension Wrangler Library) is a simple tool that helps C/C++ developers initialize extensions and write portable applications. GLEW currently supports a variety of operating systems, including Windows, Linux, Darwin, Irix, and Solaris.
 
-[GLM](https://github.com/g-truc/glm) (OpenGL Mathematics) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specifications.
+> [GLM](https://github.com/g-truc/glm) (OpenGL Mathematics) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specifications.
 
 ## Prerequisites
 
