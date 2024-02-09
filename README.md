@@ -26,5 +26,6 @@ make -j
 ## Run the application
 
 ```
+cd build
 ./modern-opengl-starter
 ```
