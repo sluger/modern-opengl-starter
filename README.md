@@ -38,8 +38,9 @@ make -j
 ```
 
 ## Run
-
 ```
 cd build
 ./modern-opengl-starter
 ```
+
+In VS Code click the play button at the top right to make use of the launch configuration.
