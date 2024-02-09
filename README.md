@@ -1,6 +1,6 @@
 # modern-opengl-starter
 
-This repo is a starter setup for modern OpenGL with GLFW and GLEW built with cmake and clang on macOS.
+This repo is a starter setup for modern OpenGL with GLFW, GLEW, and GLM built with cmake and clang on macOS.
 
 ## Prerequisites
 
@@ -12,10 +12,10 @@ Also recommending the cpp and cmake VS Code extensions.
 
 ## Install
 
-Clone the repository recursively as it will include copies of GLFW and GLEW as git submodules.
+Clone the repository and install the dependencies with cmake implicitly.
 
 ```
-git clone --recursive git@github.com:sluger/modern-opengl-starter.git
+git clone git@github.com:sluger/modern-opengl-starter.git
 cd modern-opengl-starter
 mkdir build
 cd build

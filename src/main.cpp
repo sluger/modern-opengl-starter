@@ -1,19 +1,26 @@
 /**
- * Taken from the udemy course on Computer Graphics with Modern OpenGL and C++ by Ben Cook
+ * Adapted from the udemy course on Computer Graphics with Modern OpenGL and C++ by Ben Cook
  */
 
 #include <stdio.h>
+#include <iostream>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+
+#define GLM_ENABLE_EXPERIMENTAL
+#include <glm/gtx/string_cast.hpp>
 
 // window dimensions
 const GLint WIDTH = 800, HEIGHT = 600;
 
 int main(int argc, const char *argv[])
 {
+  // create a vector with glm and print it to the console
+  glm::vec3 v = glm::vec3(-1.0f, 0.0f, 0.0f);
+  std::cout << glm::to_string(v) << std::endl;
 
-  // init GLFW
+  //  init GLFW
   if (!glfwInit())
   {
     printf("GLFW init failed!");
