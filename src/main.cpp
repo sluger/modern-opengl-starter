@@ -57,7 +57,7 @@ int main(int argc, const char *argv[])
   glViewport(0, 0, bufferWidth, bufferHeight);
 
   // loop until window closed
-  while (glfwWindowShouldClose(mainWindow))
+  while (!glfwWindowShouldClose(mainWindow))
   {
     // get and handle user input events
     glfwPollEvents();
