@@ -23,7 +23,7 @@ cmake ..
 make -j
 ```
 
-## Run the application
+## Run
 
 ```
 cd build
