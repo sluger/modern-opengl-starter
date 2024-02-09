@@ -12,6 +12,8 @@ Also recommending the cpp and cmake VS Code extensions.
 
 ## Install
 
+Clone the repository recursively as it will include copies of GLFW and GLEW as git submodules.
+
 ```
 git clone --recursive git@github.com:sluger/modern-opengl-starter.git
 cd modern-opengl-starter
