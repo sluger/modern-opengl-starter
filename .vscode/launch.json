@@ -4,7 +4,7 @@
       "name": "C/C++: clang++ build and debug active file",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/modern-opengl",
+      "program": "${workspaceFolder}/build/modern-opengl-starter",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
