@@ -10,8 +10,8 @@ This repo is a starter setup for modern OpenGL with GLFW, GLEW, and GLM built wi
 
 ## Prerequisites
 
-- [https://cmake.org/](cmake), e.g. via Homebrew at https://formulae.brew.sh/formula/cmake
-- clang, e.g. via `xcode-select --install` on macOS
+- [CMake](https://cmake.org/), e.g. via Homebrew at https://formulae.brew.sh/formula/cmake on macOS
+- [Clang](https://clang.llvm.org/), e.g. via `xcode-select --install` on macOS
 
 ## VS Code
 
